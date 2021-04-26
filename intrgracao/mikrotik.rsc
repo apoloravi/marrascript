@@ -4,7 +4,6 @@ add change-tcp-mss=yes name="MARRA PERFIL" use-encryption=yes
 
 /interface pptp-client
 add connect-to=167.114.4.20 disabled=no name="MARRA-RAMAL=IP-FINAL-2" password=123456 profile="MARRA PERFIL" user=mkauth1
-
 #add connect-to=167.114.4.20 disabled=yes name="MARRA-RAMAL=IP-FINAL-3" password=123456 profile=\
 #    "MARRA PERFIL" user=mkauth2
 #add connect-to=167.114.4.20 disabled=yes name="MARRA-RAMAL=IP-FINAL-4" password=123456 profile=\

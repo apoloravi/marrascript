@@ -3,7 +3,9 @@ Integração com Mk-auth ao Mikroitk
 
 # Crons
 
-apt install git
+ cd ~
+
+apt install git -y
 
 git clone https://github.com/apoloravi/marrascript.git
 

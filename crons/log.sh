@@ -13,6 +13,8 @@ killall -y 30h /usr/local/mkauth/backup/update
 killall -y 40h /usr/local/mkauth/backup/update
 killall -y 90h /usr/local/mkauth/backup/update
 killall -y 150h /usr/local/mkauth/backup/update
+killall -y 350h /usr/local/mkauth/backup/update
+killall -y 650h /usr/local/mkauth/backup/update
 
 #clear Cron
 killall -y 1h /var/tmp/cron

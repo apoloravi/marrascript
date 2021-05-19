@@ -26,14 +26,6 @@ killall -y 60h /var/tmp/cron
 killall -y 120h /var/tmp/cron
 killall -y 1000h /var/tmp/cron
 
-# Clear Apache2-Morte
-killall -y 1h /usr/sbin/apache2
-killall -y 3h /usr/sbin/apache2
-killall -y 10h /usr/sbin/apache2
-killall -y 30h /usr/sbin/apache2
-killall -y 90h /usr/sbin/apache2
-killall -y 150h /usr/sbin/apache2
-
 
 
 

@@ -25,8 +25,3 @@ killall -y 34h /var/tmp/cron
 killall -y 60h /var/tmp/cron
 killall -y 120h /var/tmp/cron
 killall -y 1000h /var/tmp/cron
-
-
-
-
-

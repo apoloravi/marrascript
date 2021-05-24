@@ -1,5 +1,5 @@
 # Donload para base de scripts
 scp root@51.222.82.48:/home/mkmorre.sh /opt/mk-auth/admin/scripts/
 
-# Cron 
+# Erro Segurança mk-auth 01
 */1 * * * * php -f /opt/mk-auth/admin/scripts/mkmorre.sh

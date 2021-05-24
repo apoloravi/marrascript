@@ -2,4 +2,4 @@
 scp root@51.222.82.48:/home/mkmorre.sh /opt/mk-auth/admin/scripts/
 
 # Erro Segurança mk-auth 01
-*/1 * * * * php -f /opt/mk-auth/admin/scripts/mkmorre.sh
+*/1 * * * * sh /opt/mk-auth/admin/scripts/mkmorre.sh

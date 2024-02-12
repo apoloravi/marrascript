@@ -1,17 +1,27 @@
-# marrascript
+# Marrascript
+
 Integração com Mk-auth ao Mikroitk
 
-# Crons
+## Uso Rápido
 
-#Acesse o seu Mk-Auth via root e digite:
-wget https://github.com/apoloravi/marrascript/edit/main/limpar_logs/clear_log.sh
+1. Acesse o seu Mk-Auth via root e baixe o script:
 
-#Agora vamos montar o Crontab -e
-crontab -e 
+    ```bash
+    wget https://github.com/apoloravi/marrascript/raw/main/limpar_logs/clear_log.sh
+    ```
 
-#Após digite o seguinte
-*/1 * * * * sh clear_log.sh
+2. Configure o Crontab para executar o script a cada minuto:
 
-#FIM
+    ```bash
+    crontab -e
+    ```
 
+    Adicione a seguinte linha ao final do arquivo Crontab:
 
+    ```bash
+    */1 * * * * sh clear_log.sh
+    ```
+
+    Salve e feche o editor do Crontab.
+
+## FIM

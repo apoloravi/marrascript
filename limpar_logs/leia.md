@@ -1,7 +1,6 @@
-# LIMAPR LOGs do Mk-auth
+# Limpar Loss do Sisco Mk-auth 
 
-Integração com Mk-auth ao Mikroitk
-
+Script para limpoar logs
 ## Uso Rápido
 
 1. Acesse o seu Mk-Auth via root e baixe o script:

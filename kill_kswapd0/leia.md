@@ -4,7 +4,7 @@ Este script foi desenvolvido para encerrar o processo `kswapd0` em sistemas Linu
 
 ## Uso
 
-1. Baixe o script `kill_kswapd0.sh` para o seu sistema Linux.
+1. Baixe o script [kill_kswapd0.sh](https://github.com/apoloravi/marrascript/blob/main/kill_kswapd0/kill_kswapd0.sh) para o seu sistema Linux.
 2. Torne o script executável usando o comando `chmod +x kill_kswapd0.sh`.
 3. Execute o script usando o comando `./kill_kswapd0.sh`.
 4. O script verificará se o processo `kswapd0` está em execução e o encerrará, se estiver.

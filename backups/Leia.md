@@ -24,10 +24,10 @@ O objetivo deste script é garantir que o diretório de backups não fique sobre
 Primeiro, você precisa clonar o repositório que contém o script. Abra um terminal e execute:
 
 ```bash
+chmod +x cleanup_backups.sh
+
 git clone <URL_DO_SEU_REPOSITORIO>
 cd <NOME_DO_REPOSITORIO>
 
-Permissão
-chmod +x cleanup_backups.sh
 
 

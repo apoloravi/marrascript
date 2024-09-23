@@ -26,8 +26,18 @@ Você pode baixar o script diretamente do repositório usando `curl` ou `wget`.
 #### Usando `curl`
 
 ```bash
+#Pasta onde vai ficar o arquivo
+cd /opt/mk-auth/bckp/
+
+#Fazer download do arquivo
 curl -O https://raw.githubusercontent.com/apoloravi/marrascript/main/backups/cleanup_backups.sh
 
-#Premissão
+#Premissão ao Arquivo
 chmod +x cleanup_backups.sh
+
+#Cron
+crontab -e
+
+#Adicione o agendamento no Cron
+0 0 * * * /opt/mk-auth/bckp/cleanup_backups.sh
 

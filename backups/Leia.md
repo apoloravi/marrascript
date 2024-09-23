@@ -15,19 +15,15 @@ O objetivo deste script é garantir que o diretório de backups não fique sobre
 
 - Acesso de escrita ao diretório `/opt/mk-auth/bckp/`.
 - Permissões para executar scripts Bash.
-- Git instalado (para clonar o repositório).
+- Git, `curl` ou `wget` instalados.
 
 ## Passo a Passo
 
-### 1. Clonando o Repositório
+### 1. Baixando o Script
 
-Primeiro, você precisa clonar o repositório que contém o script. Abra um terminal e execute:
+Você pode baixar o script diretamente do repositório usando `curl` ou `wget`.
+
+#### Usando `curl`
 
 ```bash
-chmod +x cleanup_backups.sh
-
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <NOME_DO_REPOSITORIO>
-
-
-
+curl -O https://raw.githubusercontent.com/apoloravi/marrascript/main/backups/cleanup_backups.sh

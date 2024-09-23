@@ -26,3 +26,8 @@ Primeiro, você precisa clonar o repositório que contém o script. Abra um term
 ```bash
 git clone <URL_DO_SEU_REPOSITORIO>
 cd <NOME_DO_REPOSITORIO>
+
+Permissão
+chmod +x cleanup_backups.sh
+
+

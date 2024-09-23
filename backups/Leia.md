@@ -27,3 +27,7 @@ Você pode baixar o script diretamente do repositório usando `curl` ou `wget`.
 
 ```bash
 curl -O https://raw.githubusercontent.com/apoloravi/marrascript/main/backups/cleanup_backups.sh
+
+#Premissão
+chmod +x cleanup_backups.sh
+
